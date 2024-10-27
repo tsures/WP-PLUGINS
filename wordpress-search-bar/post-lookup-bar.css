@@ -1,0 +1,31 @@
+#post-lookup-input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#post-lookup-results {
+    border: 1px solid #ddd;
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1000;
+}
+
+.lookup-result-item {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.lookup-result-item a {
+    text-decoration: none;
+    color: #0073aa;
+}
+
+.lookup-result-item:hover {
+    background: #f1f1f1;
+}
